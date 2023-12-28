@@ -6,6 +6,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap");
 
 
+@media screen and (max-width: 340px) and (min-width: 400px) {
+  .container {
+    width: 100%;
+  }
+}
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -13,6 +21,7 @@
   outline: none;
   box-sizing: border-box;
 }
+
 .portf {
   position: fixed; 
   bottom: 0; 
@@ -60,7 +69,7 @@
   opacity: 100%;
 }
 body{
-  height: 110vh;
+  height: 140vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,15 +85,15 @@ background: linear-gradient(357deg, rgba(20,147,184,1) 0%, rgba(34,31,120,1) 100
   padding: 15px 222px;
   overflow: hidden;
   border-radius: 18px;
-  margin-bottom: 50px;
-  box-shadow: 0px 0px 105px rgb(0, 0, 0, 0.90);
+  margin-bottom: 16rem;
+  box-shadow: 0px 0px 45px rgb(0, 0, 0, 0.90);
   font-family: 'Montserrat', sans-serif;
   transition: 0.6s ease-out;
 }
 
 .search-box{
   background-color: #06283D;
-  box-shadow: 0px 0px 105px rgb(0, 0, 0, 0.90);
+  box-shadow: 0px 0px 105px rgb(0, 0, 0, 0.60);
   width: 100%;
   height: min-content;
   display: flex;

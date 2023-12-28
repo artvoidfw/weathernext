@@ -140,6 +140,7 @@ height={500}
 /> 
 </button></Link>
 </div>
+<script src="https://app.embed.im/snow.js" defer></script>
     <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 
