@@ -7,8 +7,11 @@
 
 
 @media screen and (max-width: 768px) {
+  body {
+    height: auto;
+  }
   .container {
-    width: 40%;
+    width: 100%;
   }
   
   .navbar i {
