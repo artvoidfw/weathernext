@@ -6,10 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap");
 
 
-@media screen and (max-width: 340px) and (min-width: 740px) {
-  body {
-    width: 100%;
-  }
+@media screen and (max-width: 768px) {
   .container {
     width: 100%;
   }
@@ -77,7 +74,7 @@
   opacity: 100%;
 }
 body{
-  height: 140vh;
+  height: 170vh;
   display: flex;
   align-items: center;
   justify-content: center;
